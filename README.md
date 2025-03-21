@@ -37,4 +37,6 @@ npm i
 
 ### **Start the project:**
 
+```bash
 - npm run dev
+```
