@@ -1,0 +1,27 @@
+.footer__title {
+	font-size: 4rem;
+	line-height: 1.5;
+	font-weight: 700;
+	color: var(--black);
+}
+
+.footer__content {
+	/* max-width: 60rem; */
+}
+
+.footer__link {
+	color: var(--black);
+}
+
+@media (max-width: 768px) {
+	.footer {
+		margin-top: 10rem;
+		flex-direction: column;
+		gap: 4rem;
+	}
+
+	.footer__title {
+		font-size: 2.4rem;
+		font-weight: 500;
+	}
+}

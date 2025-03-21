@@ -1,0 +1,100 @@
+@import url('./styles/reset.css');
+@import url('./styles/accordion.css');
+@import url('./styles/product.css');
+@import url('./styles/spinner.css');
+@import url('./styles/flip.css');
+@import url('./styles/footer.css');
+
+:root {
+	--gray: #f7f8fb;
+	--light-blue: #d7ecec;
+	--black: #000;
+	--dark-gray: #a3a3a3;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 136rem;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.wrapper {
+	height: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 4rem 0;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.header {
+	margin-bottom: 6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.title {
+	font-size: 4rem;
+	line-height: 1.5;
+	font-weight: 700;
+	color: var(--black);
+}
+
+.text-xl {
+	font-size: 2rem;
+	line-height: 1.5;
+	font-weight: 400;
+	color: var(--black);
+}
+
+.text-md {
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--black);
+}
+
+.footer {
+	margin-top: 12rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 8rem;
+}
+
+.error__message {
+	font-size: 2.4rem;
+	font-weight: 700;
+	color: #900;
+}
+
+@media (max-width: 768px) {
+	.header {
+		margin-bottom: 4rem;
+		gap: 1rem;
+	}
+
+	.title {
+		font-size: 3.2rem;
+	}
+
+	.text-xl {
+		font-size: 1.4rem;
+	}
+
+	.text-md {
+		font-size: 1.2rem;
+	}
+}
